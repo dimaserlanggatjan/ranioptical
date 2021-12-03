@@ -12,7 +12,7 @@
                 Hallo, welcome to rglasses.id!  
               </h2>
               <form method="POST" action="{{ route('register') }}">
-                        @csrf
+              git          @csrf
                 <div class="form-group">
                   <label>Nama Lengkap</label>
                   <input id="name"
