@@ -9,10 +9,10 @@
           <div class="row justify-content-center">
             <div class="col-lg-4">
               <h2>
-                Hallo, welcome to rglasses.id!  
+                Hallo, welcome to Rglasses.id!  
               </h2>
               <form method="POST" action="{{ route('register') }}">
-              git          @csrf
+                        @csrf
                 <div class="form-group">
                   <label>Nama Lengkap</label>
                   <input id="name"
